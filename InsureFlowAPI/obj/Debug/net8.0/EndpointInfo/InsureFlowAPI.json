@@ -289,19 +289,45 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/ClaimDocumentRequestDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ClaimDocumentRequestDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ClaimDocumentRequestDto"
+                "required": [
+                  "ClaimId",
+                  "DocumentName",
+                  "DocumentReference",
+                  "DocumentType"
+                ],
+                "type": "object",
+                "properties": {
+                  "ClaimId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "DocumentName": {
+                    "type": "string"
+                  },
+                  "DocumentType": {
+                    "type": "string"
+                  },
+                  "DocumentReference": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ClaimId": {
+                  "style": "form"
+                },
+                "DocumentName": {
+                  "style": "form"
+                },
+                "DocumentType": {
+                  "style": "form"
+                },
+                "DocumentReference": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -351,6 +377,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Claim/review": {
+      "get": {
+        "tags": [
+          "Claim"
         ],
         "responses": {
           "200": {
@@ -1670,6 +1708,80 @@
         }
       }
     },
+    "/api/PremiumPayment/due": {
+      "get": {
+        "tags": [
+          "PremiumPayment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PremiumPayment/my-payments": {
+      "get": {
+        "tags": [
+          "PremiumPayment"
+        ],
+        "parameters": [
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "maximum": 100,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "SortBy",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SortDirection",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PaymentStatus",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PaymentStatus"
+            }
+          },
+          {
+            "name": "PaymentMode",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PaymentMode"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User": {
       "get": {
         "tags": [
@@ -1955,40 +2067,11 @@
         },
         "additionalProperties": false
       },
-      "ClaimDocumentRequestDto": {
-        "required": [
-          "claimId",
-          "documentName",
-          "documentReference",
-          "documentType"
-        ],
-        "type": "object",
-        "properties": {
-          "claimId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "documentName": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "documentType": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "documentReference": {
-            "minLength": 1,
-            "type": "string"
-          }
-        },
-        "additionalProperties": false
-      },
       "ClaimRequestDto": {
         "required": [
           "claimReason",
           "incidentDate",
-          "policyId",
-          "supportingDocuments"
+          "policyId"
         ],
         "type": "object",
         "properties": {
@@ -2009,13 +2092,6 @@
           "incidentDate": {
             "type": "string",
             "format": "date"
-          },
-          "supportingDocuments": {
-            "minItems": 1,
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SupportingDocumentDto"
-            }
           }
         },
         "additionalProperties": false
@@ -2040,15 +2116,14 @@
       },
       "ClaimStatus": {
         "enum": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
+          "Submitted",
+          "UnderReview",
+          "RecommendedForApproval",
+          "RecommendedForRejection",
+          "Approved",
+          "Rejected"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "CreateAdminRequestDto": {
         "required": [
@@ -2204,26 +2279,26 @@
       },
       "PaymentMode": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "UPI",
+          "Card",
+          "NetBanking",
+          "Cash"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "PaymentStatus": {
         "enum": [
-          0,
-          1,
-          2
+          "Success",
+          "Failed",
+          "Pending"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "PolicyPlanRequestDto": {
         "required": [
+          "coverageAmount",
           "planName",
+          "premiumAmount",
           "premiumType",
           "productId",
           "termsAndConditions"
@@ -2239,12 +2314,14 @@
             "type": "string"
           },
           "coverageAmount": {
-            "minimum": 1,
+            "maximum": 79228162514264337593543950335,
+            "minimum": 0.01,
             "type": "number",
             "format": "double"
           },
           "premiumAmount": {
-            "minimum": 1,
+            "maximum": 79228162514264337593543950335,
+            "minimum": 0.01,
             "type": "number",
             "format": "double"
           },
@@ -2269,13 +2346,12 @@
       },
       "PolicyStatus": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "PendingPayment",
+          "Active",
+          "Expired",
+          "Cancelled"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "PremiumPaymentRequestDto": {
         "required": [
@@ -2306,11 +2382,10 @@
       },
       "PremiumType": {
         "enum": [
-          0,
-          1
+          "OneTime",
+          "Monthly"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "ProductRequestDto": {
         "required": [
@@ -2341,13 +2416,12 @@
       },
       "ProductType": {
         "enum": [
-          0,
-          1,
-          2,
-          3
+          "Health",
+          "Motor",
+          "Life",
+          "Travel"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
       },
       "PurchasePolicyRequestDto": {
         "required": [
@@ -2402,38 +2476,11 @@
       },
       "Role": {
         "enum": [
-          0,
-          1,
-          2
+          "Admin",
+          "InternalStaff",
+          "Customer"
         ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "SupportingDocumentDto": {
-        "required": [
-          "documentName",
-          "documentReference",
-          "documentType"
-        ],
-        "type": "object",
-        "properties": {
-          "documentName": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string"
-          },
-          "documentType": {
-            "maxLength": 50,
-            "minLength": 0,
-            "type": "string"
-          },
-          "documentReference": {
-            "maxLength": 255,
-            "minLength": 0,
-            "type": "string"
-          }
-        },
-        "additionalProperties": false
+        "type": "string"
       },
       "UserStatusUpdateDTO": {
         "required": [

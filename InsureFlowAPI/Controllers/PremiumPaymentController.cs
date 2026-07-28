@@ -117,5 +117,37 @@ namespace InsureFlowAPI.Controllers
                     Timestamp = DateTime.UtcNow
                 });
             }
+        [Authorize(Roles = "Customer")]
+        [HttpGet("due")]
+        public async Task<IActionResult> GetPremiumDue()
+        {
+            int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var result = await _paymentService.GetPremiumDueAsync(userId);
+
+            return Ok(new ApiResponse<PremiumDueResponseDto>
+            {
+                Success = true,
+                Message = "Premium due retrieved successfully.",
+                Data = result,
+                Timestamp = DateTime.UtcNow
+            });
+        }
+        [Authorize(Roles = "Customer")]
+        [HttpGet("my-payments")]
+        public async Task<IActionResult> GetMyPayments([FromQuery] PaginationRequestDto paginationDto)
+        {
+            int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var payments = await _paymentService.GetMyPaymentsAsync(userId, paginationDto);
+
+            return Ok(new ApiResponse<PagedResponse<PremiumPaymentResponseDto>>
+            {
+                Success = true,
+                Message = "Customer payments retrieved successfully.",
+                Data = payments,
+                Timestamp = DateTime.UtcNow
+            });
+        }
     }
 }

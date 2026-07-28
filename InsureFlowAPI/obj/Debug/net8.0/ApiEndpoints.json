@@ -156,9 +156,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requestDto",
-        "Type": "ClaimDocumentRequestDto",
-        "IsRequired": true
+        "Name": "ClaimId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentReference",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -249,6 +264,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsureFlowAPI.Controllers.ClaimController",
+    "Method": "GetClaimsForReview",
+    "RelativePath": "api/Claim/review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -989,6 +1014,57 @@
         "Type": "System.Int32",
         "IsRequired": true
       },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PaymentMode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsureFlowAPI.Controllers.PremiumPaymentController",
+    "Method": "GetPremiumDue",
+    "RelativePath": "api/PremiumPayment/due",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsureFlowAPI.Controllers.PremiumPaymentController",
+    "Method": "GetMyPayments",
+    "RelativePath": "api/PremiumPayment/my-payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "PageNumber",
         "Type": "System.Int32",

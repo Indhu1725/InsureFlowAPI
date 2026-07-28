@@ -12,19 +12,19 @@ namespace InsureFlowAPI.DTOs.Policy
 
         public string PlanName { get; set; }
 
-        public ProductType ProductType { get; set; }
+        public string ProductType { get; set; } = string.Empty;
 
         public decimal CoverageAmount { get; set; }
 
         public decimal PremiumAmount { get; set; }
 
-        public PremiumType PremiumType { get; set; }
+        public PremiumType PremiumType { get; set; } 
 
         public DateOnly StartDate { get; set; }
 
         public DateOnly EndDate { get; set; }
 
-        public PolicyStatus PolicyStatus { get; set; }
+        public string PolicyStatus { get; set; } = string.Empty;
 
         public decimal TotalPremiumPaid { get; set; }
     }

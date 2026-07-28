@@ -8,7 +8,7 @@ namespace InsureFlowAPI.DTOs.Product
 
         public string ProductName { get; set; }
 
-        public ProductType ProductType { get; set; }
+        public string ProductType { get; set; } = string.Empty;
 
         public string Description { get; set; }
 

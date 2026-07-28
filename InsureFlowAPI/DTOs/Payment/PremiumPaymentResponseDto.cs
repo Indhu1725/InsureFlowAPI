@@ -12,10 +12,10 @@ namespace InsureFlowAPI.DTOs.Payment
 
         public DateTime PaymentDate { get; set; }
 
-        public PaymentMode PaymentMode { get; set; }
+        public string PaymentMode { get; set; } = string.Empty;
 
         public string TransactionReference { get; set; }
 
-        public PaymentStatus PaymentStatus { get; set; }
+        public string PaymentStatus { get; set; } = string.Empty;
     }
 }

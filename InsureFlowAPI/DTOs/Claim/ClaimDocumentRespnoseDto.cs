@@ -4,7 +4,9 @@
     {
         public int DocumentId { get; set; }
 
-        public int ClaimId { get; set; }
+        public string DocumentName { get; set; } = string.Empty;
+
+        public string ClaimNumber { get; set; } = string.Empty;
 
         public string FilePath { get; set; } = string.Empty;
 

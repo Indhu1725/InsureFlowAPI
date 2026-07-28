@@ -5,25 +5,29 @@ namespace InsureFlowAPI.DTOs.PolicyPlan
 {
     public class PolicyPlanRequestDto
     {
-        [Required(ErrorMessage ="ProductId is Required")]
+        [Required(ErrorMessage = "Product Id is required.")]
         public int ProductId { get; set; }
 
-        [Required(ErrorMessage ="PlanName is Required")]
+        [Required(ErrorMessage = "Plan Name is required.")]
         public string PlanName { get; set; }
 
-        [Range(1, double.MaxValue)]
+        [Required(ErrorMessage = "Coverage Amount is required.")]
+        [Range(typeof(decimal), "0.01", "79228162514264337593543950335",
+            ErrorMessage = "Coverage Amount must be greater than 0.")]
         public decimal CoverageAmount { get; set; }
 
-        [Range(1, double.MaxValue)]
+        [Required(ErrorMessage = "Premium Amount is required.")]
+        [Range(typeof(decimal), "0.01", "79228162514264337593543950335",
+            ErrorMessage = "Premium Amount must be greater than 0.")]
         public decimal PremiumAmount { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Premium Type is required.")]
         public PremiumType PremiumType { get; set; }
 
-        [Range(1, 100)]
+        [Range(1, 100, ErrorMessage = "Duration must be between 1 and 100 years.")]
         public int DurationYears { get; set; }
 
-        [Required(ErrorMessage ="Terms and Conditions required")]
+        [Required(ErrorMessage = "Terms and Conditions are required.")]
         public string TermsAndConditions { get; set; }
 
         public bool IsActive { get; set; }

@@ -1,3 +1,4 @@
+using Microsoft.Extensions.FileProviders;
 using InsureFlowAPI.Data;
 using InsureFlowAPI.Mapping;
 using InsureFlowAPI.Middleware;
@@ -11,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
 
 namespace InsureFlowAPI
 {
@@ -68,9 +70,22 @@ namespace InsureFlowAPI
 
             // Authorization
             builder.Services.AddAuthorization();
-
+            // CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngular", policy =>
+                {
+                    policy.WithOrigins("http://localhost:4200")
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
+                });
+            });
             // Controllers
-            builder.Services.AddControllers();
+            builder.Services.AddControllers()
+     .AddJsonOptions(options =>
+     {
+         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+     });
 
             // Swagger
             builder.Services.AddEndpointsApiExplorer();
@@ -121,6 +136,19 @@ namespace InsureFlowAPI
             }
 
             app.UseHttpsRedirection();
+
+            // Serve wwwroot files
+            app.UseStaticFiles();
+
+            // Serve Uploads folder
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
+                RequestPath = "/Uploads"
+            });
+
+            app.UseCors("AllowAngular");
 
             // IMPORTANT ORDER
             app.UseAuthentication();

@@ -45,6 +45,9 @@ namespace InsureFlowAPI.Models
 
         [Range(0, double.MaxValue, ErrorMessage = "Total Premium Paid cannot be negative.")]
         public decimal TotalPremiumPaid { get; set; } = 0;
+        public DateTime? LastPremiumPaymentDate { get; set; }
+
+        public DateOnly? NextPremiumDueDate { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; } = DateTime.Now;

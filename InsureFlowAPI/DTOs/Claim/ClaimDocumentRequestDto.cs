@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 public class ClaimDocumentRequestDto
 {
@@ -12,5 +13,5 @@ public class ClaimDocumentRequestDto
     public string DocumentType { get; set; } = string.Empty;
 
     [Required]
-    public string DocumentReference { get; set; } = string.Empty;
+    public IFormFile DocumentReference { get; set; } = default!;
 }

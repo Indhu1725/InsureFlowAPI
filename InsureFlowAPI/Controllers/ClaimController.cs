@@ -175,7 +175,7 @@ namespace InsureFlowAPI.Controllers
         // Claim Documents
 
         [HttpPost("document")]
-        public async Task<IActionResult> AddDocument([FromBody] ClaimDocumentRequestDto requestDto)
+        public async Task<IActionResult> AddDocument([FromForm] ClaimDocumentRequestDto requestDto)
         {
             int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
             var role = Enum.Parse<Role>(User.FindFirstValue(ClaimTypes.Role)!);
@@ -224,6 +224,20 @@ namespace InsureFlowAPI.Controllers
                 Message = "Claim history retrieved successfully.",
                 Data = history,
                 Timestamp = DateTime.UtcNow
+            });
+        }
+
+        [Authorize(Roles = "InternalStaff")]
+        [HttpGet("review")]
+        public async Task<IActionResult> GetClaimsForReview()
+        {
+            var claims = await _claimService.GetClaimsForReviewAsync();
+
+            return Ok(new
+            {
+                success = true,
+                message = "Claims for review retrieved successfully.",
+                data = claims
             });
         }
 

@@ -3,6 +3,7 @@
     public enum PremiumType
     {
         OneTime,
-        Annual
+        Monthly,
+        
     }
 }

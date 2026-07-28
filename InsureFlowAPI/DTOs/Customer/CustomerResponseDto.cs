@@ -23,5 +23,8 @@
         public string NomineeName { get; set; }
 
         public string NomineeRelation { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedDate { get; set; }
+
     }
 }

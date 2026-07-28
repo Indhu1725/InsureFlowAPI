@@ -25,10 +25,14 @@ namespace InsureFlowAPI.Mapping
                 .ForMember(dest => dest.Email,
                     opt => opt.MapFrom(src => src.User.Email))
                 .ForMember(dest => dest.MobileNumber,
-                    opt => opt.MapFrom(src => src.User.MobileNumber));
+                    opt => opt.MapFrom(src => src.User.MobileNumber))
+                .ForMember(dest => dest.IsActive,
+                    opt => opt.MapFrom(src => src.IsActive));
 
             // Insurance Product
-            CreateMap<InsuranceProduct, ProductResponseDto>();
+            CreateMap<InsuranceProduct, ProductResponseDto>()
+     .ForMember(dest => dest.ProductType,
+         opt => opt.MapFrom(src => src.ProductType.ToString()));
 
             // Policy Plan
             CreateMap<PolicyPlan, PolicyPlanResponseDto>()
@@ -36,14 +40,16 @@ namespace InsureFlowAPI.Mapping
                     opt => opt.MapFrom(src => src.Product.ProductName));
 
             // Policy
-            // Policy
-            CreateMap<Policy, PolicyResponseDto>()
+
+                CreateMap<Policy, PolicyResponseDto>()
                 .ForMember(dest => dest.CustomerName,
                     opt => opt.MapFrom(src => src.Customer.User.FullName))
                 .ForMember(dest => dest.PlanName,
                     opt => opt.MapFrom(src => src.Plan.PlanName))
                 .ForMember(dest => dest.ProductType,
-                    opt => opt.MapFrom(src => src.Plan.Product.ProductType))
+                    opt => opt.MapFrom(src => src.Plan.Product.ProductType.ToString()))
+                .ForMember(dest => dest.PolicyStatus,
+                    opt => opt.MapFrom(src => src.PolicyStatus.ToString()))
                 .ForMember(dest => dest.CoverageAmount,
                     opt => opt.MapFrom(src => src.Plan.CoverageAmount))
                 .ForMember(dest => dest.PremiumAmount,
@@ -53,8 +59,10 @@ namespace InsureFlowAPI.Mapping
 
             // Premium Payment
             CreateMap<PremiumPayment, PremiumPaymentResponseDto>()
-                .ForMember(dest => dest.PolicyNumber,
-                    opt => opt.MapFrom(src => src.Policy.PolicyNumber));
+    .ForMember(dest => dest.PolicyNumber,
+        opt => opt.MapFrom(src => src.Policy.PolicyNumber))
+    .ForMember(dest => dest.PaymentStatus,
+        opt => opt.MapFrom(src => src.PaymentStatus.ToString()));
 
             // Claim
             CreateMap<Claim, ClaimResponseDto>()
@@ -67,6 +75,10 @@ namespace InsureFlowAPI.Mapping
 
             // Claim Document
             CreateMap<ClaimDocument, ClaimDocumentResponseDto>()
+                .ForMember(dest => dest.DocumentName,
+                    opt => opt.MapFrom(src => src.DocumentName))
+                .ForMember(dest => dest.ClaimNumber,
+                    opt => opt.MapFrom(src => src.Claim.ClaimNumber))
                 .ForMember(dest => dest.FilePath,
                     opt => opt.MapFrom(src => src.DocumentReference));
 

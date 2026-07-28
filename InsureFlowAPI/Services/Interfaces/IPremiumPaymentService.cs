@@ -13,5 +13,9 @@ namespace InsureFlowAPI.Services.Interfaces
         Task<PremiumPaymentResponseDto?> GetPaymentByIdAsync(int id);
 
         Task<PremiumPaymentResponseDto> MakePaymentAsync(PremiumPaymentRequestDto requestDto,int userId,string role);
+        Task<PremiumDueResponseDto> GetPremiumDueAsync(int userId);
+        Task<PagedResponse<PremiumPaymentResponseDto>> GetMyPaymentsAsync(
+    int userId,
+    PaginationRequestDto paginationDto);
     }
 }

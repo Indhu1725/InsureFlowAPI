@@ -3,432 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\policyplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\policyplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\premiumpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\premiumpaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\premiumpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\premiumpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\premiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\premiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\premiumpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\premiumpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\policyplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\policyplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\ipolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policy\\purchasepolicyrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policy\\purchasepolicyrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policy\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policy\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policy\\policyquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policy\\policyquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policy\\issuepolicyrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policy\\issuepolicyrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\insuranceproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\insuranceproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\iinsuranceproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\iinsuranceproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\policyplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\policyplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\insuranceproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\insuranceproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\claimstatushistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\claimstatushistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\ipremiumpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\ipremiumpaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\claimdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\claimdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\ipolicyplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\ipolicyplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\policyplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\policyplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\ipremiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\ipremiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\authentication\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\authentication\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\authentication\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\authentication\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260706144616_finalchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260706144616_finalchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\user\\userstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\user\\userstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\ipolicyplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\ipolicyplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\iinsuranceproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\iinsuranceproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\iclaimstatushistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\iclaimstatushistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\interfaces\\iclaimdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\interfaces\\iclaimdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\implementations\\insuranceproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\implementations\\insuranceproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\repositories\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\repositories\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\insuranceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\insuranceproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\claimstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\claimstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\premiumtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\premiumtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\policystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\policystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\paymentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\paymentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\claimstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\claimstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\helpers\\claimstatusvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\helpers\\claimstatusvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\user\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\user\\userquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\user\\userquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\user\\createinternalstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\user\\createinternalstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\user\\createadminrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\user\\createadminrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\product\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\product\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\product\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\product\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policyplan\\policyplanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policyplan\\policyplanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policyplan\\policyplanrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policyplan\\policyplanrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\enums\\premiumtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\enums\\premiumtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\implementations\\premiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\implementations\\premiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\ipremiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\ipremiumpaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\payment\\premiumdueresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\payment\\premiumdueresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\payment\\premiumpaymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\payment\\premiumpaymentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\payment\\premiumpaymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\payment\\premiumpaymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\customer\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\customer\\customerquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\customer\\customerquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\productquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\productquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\policyplanquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\policyplanquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\paginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\paginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\supportingdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\supportingdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimstatushistoryreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimstatushistoryreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimdocumentrespnosedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimdocumentrespnosedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimdocumentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimdocumentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimpaginationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\claim\\claimdecisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\claim\\claimdecisiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\services\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\authentication\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\authentication\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\product\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\product\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260704153000_userchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260704153000_userchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\policy\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\policy\\policyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260709133442_claimmodelchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260709133442_claimmodelchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\dtos\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\dtos\\customer\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\helpers\\claimstatusvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\helpers\\claimstatusvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260726051014_enumchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260726051014_enumchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260726042511_policychanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260726042511_policychanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|c:\\users\\deepthi\\desktop\\indhu\\insureflowapi\\insureflowapi\\migrations\\20260726044926_addpremiumduedatetopolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C57DDFD-DA98-8145-5F85-9D57EA9F088F}|InsureFlowAPI\\InsureFlowAPI.csproj|solutionrelative:insureflowapi\\migrations\\20260726044926_addpremiumduedatetopolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -438,164 +118,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClaimController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\ClaimController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\ClaimController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\ClaimController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwPIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T11:32:29.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClaimService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAA/wKwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:50:04.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PolicyPlan.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\PolicyPlan.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\PolicyPlan.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\PolicyPlan.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\PolicyPlan.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvyoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:02:45.927Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClaimRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBAAAAA8AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Program.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Program.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:50:23.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:44:04.019Z",
+              "WhenOpened": "2026-07-19T04:01:10.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
-              "Title": "20260709133442_ClaimModelChanges.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260709133442_ClaimModelChanges.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260709133442_ClaimModelChanges.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260709133442_ClaimModelChanges.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260709133442_ClaimModelChanges.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T13:34:43.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Claim.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Claim.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Claim.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwC4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:26:45.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PolicyController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\PolicyController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\PolicyController.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAADwv7EAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:17:27.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IClaimService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwBwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:43:17.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\appsettings.json",
-              "RelativeToolTip": "InsureFlowAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-02T12:44:46.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PremiumPaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PremiumPaymentController.cs",
               "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\PremiumPaymentController.cs",
               "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PremiumPaymentController.cs",
               "RelativeToolTip": "InsureFlowAPI\\Controllers\\PremiumPaymentController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAUwGUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAwIgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:03:35.404Z"
+              "WhenOpened": "2026-07-26T06:23:37.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PolicyPlanController.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwJgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T11:25:00.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\ClaimService.cs",
+              "ViewState": "AgIAANcBAAAAAAAAAAAAANwBAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T11:08:59.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwFUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:45:45.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwIcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T12:56:54.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyController.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\PolicyController.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyController.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Controllers\\PolicyController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAIwLkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T09:45:39.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PolicyPlanRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T07:56:51.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PremiumType.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-26T04:14:09.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "PremiumPayment.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\PremiumPayment.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\PremiumPayment.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\PremiumPayment.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\PremiumPayment.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCEAAAA0AAAAAAAAAA==",
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAAABIBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:19:28.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PremiumPaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PremiumPaymentRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\PremiumPaymentRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PremiumPaymentRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\PremiumPaymentRepository.cs",
-              "ViewState": "AgIAAAcBAAAAAAAAAAAswBQBAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:17:01.946Z"
+              "WhenOpened": "2026-07-20T11:28:04.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -605,1125 +258,203 @@
               "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\PremiumPaymentService.cs",
               "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\PremiumPaymentService.cs",
               "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\PremiumPaymentService.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAwwM0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAM0BAAAAAAAAAAAcwNgBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T07:41:17.478Z"
+              "WhenOpened": "2026-07-26T04:25:55.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PolicyService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\PolicyService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\PolicyService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\PolicyService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\PolicyService.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAYwO4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "PremiumDueResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumDueResponseDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Payment\\PremiumDueResponseDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumDueResponseDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Payment\\PremiumDueResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T07:43:39.007Z"
+              "WhenOpened": "2026-07-26T08:04:05.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Program.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Program.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Program.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAIwH8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T12:42:34.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PolicyPlanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PolicyPlanRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\PolicyPlanRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PolicyPlanRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\PolicyPlanRepository.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAwwK0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:34:12.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAwwHoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:41:57.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PolicyRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\PolicyRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\PolicyRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\PolicyRepository.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAuwJYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:22:51.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClaimRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\ClaimRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\ClaimRepository.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAcwIkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:00:54.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IPolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPolicyRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IPolicyRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPolicyRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IPolicyRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:13:19.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IPolicyService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPolicyService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IPolicyService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPolicyService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IPolicyService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:03:49.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Customer.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Customer.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:41:48.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:07:30.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Policy.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Policy.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Policy.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Policy.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Policy.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwDwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:13:59.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Mapping\\AutoMapperProfile.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwFIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T12:46:57.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PurchasePolicyRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PurchasePolicyRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Policy\\PurchasePolicyRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PurchasePolicyRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Policy\\PurchasePolicyRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:43:27.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PolicyResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:44:08.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PolicyQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyQueryDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Policy\\PolicyQueryDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyQueryDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Policy\\PolicyQueryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T07:10:47.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IssuePolicyRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\IssuePolicyRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Policy\\IssuePolicyRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\IssuePolicyRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Policy\\IssuePolicyRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:43:49.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T16:07:04.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "InsuranceProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\InsuranceProductService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\InsuranceProductService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\InsuranceProductService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\InsuranceProductService.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAQwI0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:34:50.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IInsuranceProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IInsuranceProductService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IInsuranceProductService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IInsuranceProductService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IInsuranceProductService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:26:31.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\CustomerService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\CustomerService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\CustomerService.cs",
-              "ViewState": "AgIAAEIBAAAAAAAAAAAQwFgBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:43:15.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\AuthService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\AuthService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\AuthService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAgwH8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:59:31.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PolicyPlanController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\PolicyPlanController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowJgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:08:59.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "InsuranceProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\InsuranceProductController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\InsuranceProductController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\InsuranceProductController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\InsuranceProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:30:04.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T11:43:31.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductType.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\ProductType.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\ProductType.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\ProductType.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\ProductType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:54:49.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\User.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T13:51:57.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ClaimStatusHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimStatusHistoryRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\ClaimStatusHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimStatusHistoryRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\ClaimStatusHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T13:57:21.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\UserRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T11:14:11.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwIcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T09:46:26.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\Role.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\Role.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\Role.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:45:04.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IPremiumPaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPremiumPaymentRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IPremiumPaymentRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPremiumPaymentRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IPremiumPaymentRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:14:03.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:07:27.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:11:03.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ClaimDocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimDocumentRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\ClaimDocumentRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\ClaimDocumentRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\ClaimDocumentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T14:57:22.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:00:34.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\ICustomerService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\ICustomerService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA2wA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:33:00.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "IPolicyPlanService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPolicyPlanService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IPolicyPlanService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPolicyPlanService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IPolicyPlanService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:14:25.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "PolicyPlanService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\PolicyPlanService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\PolicyPlanService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\PolicyPlanService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\PolicyPlanService.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAQwOUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T07:58:16.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 11,
               "Title": "IPremiumPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPremiumPaymentService.cs",
               "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IPremiumPaymentService.cs",
               "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IPremiumPaymentService.cs",
               "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IPremiumPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T04:43:09.581Z"
+              "WhenOpened": "2026-07-26T08:02:18.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\UserService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Implementations\\UserService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Implementations\\UserService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Implementations\\UserService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wJoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T07:22:42.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T16:07:51.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Authentication\\LoginResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\LoginResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Authentication\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T09:36:24.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Authentication\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\LoginRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Authentication\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T09:36:05.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "20260706144616_FinalChanges.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260706144616_FinalChanges.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260706144616_FinalChanges.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260706144616_FinalChanges.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260706144616_FinalChanges.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T14:46:16.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "UserStatusUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserStatusUpdateDTO.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\User\\UserStatusUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserStatusUpdateDTO.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\User\\UserStatusUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:07:32.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "IPolicyPlanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPolicyPlanRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IPolicyPlanRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IPolicyPlanRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IPolicyPlanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:12:46.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "IInsuranceProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IInsuranceProductRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IInsuranceProductRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IInsuranceProductRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IInsuranceProductRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wA0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:11:55.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "IClaimStatusHistoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimStatusHistoryRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimStatusHistoryRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimStatusHistoryRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimStatusHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:16:07.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "IClaimRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:14:41.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "IClaimDocumentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimDocumentRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimDocumentRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Interfaces\\IClaimDocumentRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Interfaces\\IClaimDocumentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T13:15:14.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "InsuranceProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\InsuranceProductRepository.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Implementations\\InsuranceProductRepository.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Implementations\\InsuranceProductRepository.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Implementations\\InsuranceProductRepository.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAwwIMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:38:04.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "PagedResult.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Common\\PagedResult.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Repositories\\Common\\PagedResult.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Repositories\\Common\\PagedResult.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Repositories\\Common\\PagedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:26:42.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "InsuranceProduct.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\InsuranceProduct.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\InsuranceProduct.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\InsuranceProduct.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\InsuranceProduct.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T15:38:51.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "ClaimStatusHistory.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimStatusHistory.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\ClaimStatusHistory.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimStatusHistory.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\ClaimStatusHistory.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:31:11.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "ClaimDocument.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimDocument.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\ClaimDocument.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimDocument.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\ClaimDocument.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:29:24.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "PremiumType.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\PremiumType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:48:45.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "PolicyStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PolicyStatus.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\PolicyStatus.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PolicyStatus.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\PolicyStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:49:56.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "PaymentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PaymentStatus.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\PaymentStatus.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PaymentStatus.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\PaymentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:51:34.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "PaymentMode.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PaymentMode.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\PaymentMode.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\PaymentMode.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\PaymentMode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:50:50.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "ClaimStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\ClaimStatus.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Enums\\ClaimStatus.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Enums\\ClaimStatus.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Models\\Enums\\ClaimStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T15:53:13.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "ClaimStatusValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T11:57:20.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T14:34:46.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "ConflictException.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\ConflictException.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Exceptions\\ConflictException.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\ConflictException.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Exceptions\\ConflictException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T14:34:18.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T14:31:46.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "UserResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\User\\UserResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\User\\UserResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:01:50.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "UserQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserQueryDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\User\\UserQueryDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\UserQueryDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\User\\UserQueryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:25:10.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "CreateInternalStaffDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\CreateInternalStaffDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\User\\CreateInternalStaffDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\CreateInternalStaffDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\User\\CreateInternalStaffDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T04:31:41.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "CreateAdminRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\CreateAdminRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\User\\CreateAdminRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\User\\CreateAdminRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\User\\CreateAdminRequestDto.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T04:31:07.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "ProductResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAywA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:17:00.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "ProductRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Product\\ProductRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Product\\ProductRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:16:47.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "PolicyPlanResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanResponseDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:41:35.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "PolicyPlanRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\PolicyPlan\\PolicyPlanRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:20:17.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 13,
               "Title": "PremiumPaymentResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentResponseDto.cs",
               "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentResponseDto.cs",
               "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentResponseDto.cs",
               "RelativeToolTip": "InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentResponseDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:49:26.095Z"
+              "WhenOpened": "2026-07-20T07:03:48.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "PremiumPaymentRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Payment\\PremiumPaymentRequestDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\Policy.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\Policy.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Models\\Policy.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:48:03.961Z"
+              "WhenOpened": "2026-07-26T04:18:25.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "CustomerResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "20260726051014_EnumChanges.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726051014_EnumChanges.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260726051014_EnumChanges.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726051014_EnumChanges.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260726051014_EnumChanges.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:13:11.525Z"
+              "WhenOpened": "2026-07-26T05:10:14.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "CustomerRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Customer\\CustomerRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Customer\\CustomerRequestDto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwBsAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "20260726042511_PolicyChanges.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726042511_PolicyChanges.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260726042511_PolicyChanges.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726042511_PolicyChanges.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260726042511_PolicyChanges.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:12:59.545Z"
+              "WhenOpened": "2026-07-26T04:25:13.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "CustomerQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerQueryDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Customer\\CustomerQueryDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerQueryDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Customer\\CustomerQueryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "20260726044926_AddPremiumDueDateToPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726044926_AddPremiumDueDateToPolicy.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260726044926_AddPremiumDueDateToPolicy.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260726044926_AddPremiumDueDateToPolicy.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260726044926_AddPremiumDueDateToPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T16:17:58.947Z"
+              "WhenOpened": "2026-07-26T04:49:26.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "ProductQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ProductQueryDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\ProductQueryDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ProductQueryDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\ProductQueryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ClaimRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimRequestDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T04:23:09.646Z"
+              "WhenOpened": "2026-07-26T03:12:51.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "PolicyPlanQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PolicyPlanQueryDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\PolicyPlanQueryDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PolicyPlanQueryDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\PolicyPlanQueryDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ClaimDocument.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimDocument.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Models\\ClaimDocument.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Models\\ClaimDocument.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Models\\ClaimDocument.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwB4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T12:37:26.963Z"
+              "WhenOpened": "2026-07-20T11:09:55.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "PaginationRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PaginationRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\PaginationRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PaginationRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\PaginationRequestDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:24:15.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "PagedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PagedResponse.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\PagedResponse.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\PagedResponse.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\PagedResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:57:16.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "ErrorResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ErrorResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\ErrorResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ErrorResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\ErrorResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T11:00:28.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Common\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Common\\ApiResponse.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Common\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:56:23.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "SupportingDocumentDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\SupportingDocumentDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\SupportingDocumentDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\SupportingDocumentDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\SupportingDocumentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T11:09:25.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "ClaimStatusHistoryReponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimStatusHistoryReponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimStatusHistoryReponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimStatusHistoryReponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimStatusHistoryReponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:52:10.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "ClaimReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimReviewDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimReviewDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimReviewDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimReviewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:54:02.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "ClaimResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimResponseDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimResponseDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimResponseDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimResponseDto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:52:26.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "ClaimPaginationRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T01:23:07.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 17,
               "Title": "ClaimDocumentRespnoseDto.cs",
               "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRespnoseDto.cs",
               "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRespnoseDto.cs",
               "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRespnoseDto.cs",
               "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRespnoseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA8wA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:50:58.647Z"
+              "WhenOpened": "2026-07-20T11:10:21.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "ClaimDocumentRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimDocumentRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ClaimPaginationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimPaginationRequestDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T05:50:11.029Z"
+              "WhenOpened": "2026-07-20T11:24:15.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
-              "Title": "ClaimDecisionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDecisionDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Claim\\ClaimDecisionDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Claim\\ClaimDecisionDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Claim\\ClaimDecisionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Services\\Interfaces\\IClaimService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:55:05.649Z"
+              "WhenOpened": "2026-07-20T11:09:25.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Authentication\\RegisterRequestDto.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Authentication\\RegisterRequestDto.cs",
-              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Authentication\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Product\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T09:34:58.254Z"
+              "WhenOpened": "2026-07-20T07:11:00.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
-              "Title": "20260704153000_UserChanged.cs",
-              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260704153000_UserChanged.cs",
-              "RelativeDocumentMoniker": "InsureFlowAPI\\Migrations\\20260704153000_UserChanged.cs",
-              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Migrations\\20260704153000_UserChanged.cs",
-              "RelativeToolTip": "InsureFlowAPI\\Migrations\\20260704153000_UserChanged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "PolicyResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Policy\\PolicyResponseDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T15:30:00.527Z"
+              "WhenOpened": "2026-07-20T06:55:01.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
+              "RelativeToolTip": "InsureFlowAPI\\DTOs\\Customer\\CustomerResponseDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA8wBkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T06:43:02.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClaimStatusValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
+              "RelativeDocumentMoniker": "InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
+              "ToolTip": "C:\\Users\\Deepthi\\Desktop\\Indhu\\InsureFlowAPI\\InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
+              "RelativeToolTip": "InsureFlowAPI\\Helpers\\ClaimStatusValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T13:50:32.627Z"
             }
           ]
         }

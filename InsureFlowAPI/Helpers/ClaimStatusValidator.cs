@@ -8,15 +8,15 @@ namespace InsureFlowAPI.Helpers
         {
             return currentStatus switch
             {
-                ClaimStatus.Submitted => newStatus == ClaimStatus.UnderReview,
-
-                ClaimStatus.UnderReview =>
+                ClaimStatus.Submitted =>
                     newStatus == ClaimStatus.RecommendedForApproval ||
                     newStatus == ClaimStatus.RecommendedForRejection,
 
-                ClaimStatus.RecommendedForApproval => newStatus == ClaimStatus.Approved,
+                ClaimStatus.RecommendedForApproval =>
+                    newStatus == ClaimStatus.Approved,
 
-                ClaimStatus.RecommendedForRejection => newStatus == ClaimStatus.Rejected,
+                ClaimStatus.RecommendedForRejection =>
+                    newStatus == ClaimStatus.Rejected,
 
                 ClaimStatus.Approved => false,
 

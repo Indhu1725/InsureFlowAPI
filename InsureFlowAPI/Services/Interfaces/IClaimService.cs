@@ -9,7 +9,7 @@ namespace InsureFlowAPI.Services.Interfaces
         Task<IEnumerable<ClaimResponseDto>> GetAllClaimsAsync();
         Task<IEnumerable<ClaimResponseDto>> GetClaimsByCustomerIdAsync(int customerId);
         Task<IEnumerable<ClaimResponseDto>> GetMyClaimsAsync(int userId);
-
+        Task<IEnumerable<ClaimResponseDto>> GetClaimsForReviewAsync();
         Task<IEnumerable<ClaimResponseDto>> GetClaimsByPolicyIdAsync(int policyId);
 
         Task<IEnumerable<ClaimResponseDto>> GetClaimsByStatusAsync(ClaimStatus status);

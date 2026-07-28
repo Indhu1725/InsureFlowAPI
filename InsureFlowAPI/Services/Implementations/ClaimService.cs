@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using InsureFlowAPI.Data;
 using InsureFlowAPI.DTOs.Claim;
 using InsureFlowAPI.DTOs.Common;
 using InsureFlowAPI.Exceptions;
@@ -7,8 +8,9 @@ using InsureFlowAPI.Models;
 using InsureFlowAPI.Models.Enums;
 using InsureFlowAPI.Repositories.Interfaces;
 using InsureFlowAPI.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using InsureFlowAPI.Data;
+using System.IO;
 
 namespace InsureFlowAPI.Services.Implementations
 {
@@ -68,7 +70,19 @@ namespace InsureFlowAPI.Services.Implementations
             var claims = await _claimRepository.GetClaimsByCustomerIdAsync(customer.CustomerId);
             return _mapper.Map<IEnumerable<ClaimResponseDto>>(claims);
         }
+        public async Task<IEnumerable<ClaimResponseDto>> GetClaimsForReviewAsync()
+        {
+            var claims = await _context.Claims
+                .Include(c => c.Customer)
+                .Include(c => c.Policy)
+                .Where(c =>
+                    c.ClaimStatus == ClaimStatus.Submitted ||
+                    c.ClaimStatus == ClaimStatus.UnderReview)
+                .OrderByDescending(c => c.CreatedDate)
+                .ToListAsync();
 
+            return _mapper.Map<IEnumerable<ClaimResponseDto>>(claims);
+        }
         public async Task<IEnumerable<ClaimResponseDto>> GetClaimsByPolicyIdAsync(int policyId)
         {
             var policy = await _policyRepository.GetByIdAsync(policyId);
@@ -192,10 +206,6 @@ namespace InsureFlowAPI.Services.Implementations
 
                 if (string.IsNullOrWhiteSpace(requestDto.ClaimReason))
                     throw new BadRequestException("Claim reason is required.");
-
-                if (requestDto.SupportingDocuments == null || !requestDto.SupportingDocuments.Any())
-                    throw new BadRequestException("At least one supporting document is required.");
-
                 var claim = new Claim
                 {
                     ClaimNumber = await GenerateClaimNumberAsync(),
@@ -211,20 +221,6 @@ namespace InsureFlowAPI.Services.Implementations
 
                 await _claimRepository.AddAsync(claim);
                 await _claimRepository.SaveChangesAsync();
-
-                foreach (var document in requestDto.SupportingDocuments)
-                {
-                    var claimDocument = new ClaimDocument
-                    {
-                        ClaimId = claim.ClaimId,
-                        DocumentName = document.DocumentName.Trim(),
-                        DocumentType = document.DocumentType.Trim(),
-                        DocumentReference = document.DocumentReference.Trim(),
-                        UploadedDate = DateTime.UtcNow
-                    };
-
-                    await _claimDocumentRepository.AddAsync(claimDocument);
-                }
 
                 var history = new ClaimStatusHistory
                 {
@@ -290,12 +286,36 @@ namespace InsureFlowAPI.Services.Implementations
             if (claim.ClaimStatus == ClaimStatus.Approved || claim.ClaimStatus == ClaimStatus.Rejected)
                 throw new BadRequestException("Cannot add documents after the claim has been closed.");
 
+            // Create Uploads folder if it doesn't exist
+            var uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+
+            if (!Directory.Exists(uploadFolder))
+            {
+                Directory.CreateDirectory(uploadFolder);
+            }
+
+            // Generate unique file name
+            var fileName = $"{Guid.NewGuid()}_{requestDto.DocumentReference.FileName}";
+
+            // Full path where file will be saved
+            var filePath = Path.Combine(uploadFolder, fileName);
+
+            // Save file to Uploads folder
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await requestDto.DocumentReference.CopyToAsync(stream);
+            }
+
+            // Save document details in database
             var document = new ClaimDocument
             {
                 ClaimId = requestDto.ClaimId,
                 DocumentName = requestDto.DocumentName.Trim(),
                 DocumentType = requestDto.DocumentType.Trim(),
-                DocumentReference = requestDto.DocumentReference.Trim(),
+
+                // Store relative path 
+                DocumentReference = $"Uploads/{fileName}",
+
                 UploadedDate = DateTime.UtcNow
             };
 
