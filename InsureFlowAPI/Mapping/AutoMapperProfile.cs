@@ -61,11 +61,12 @@ namespace InsureFlowAPI.Mapping
 
             // Premium Payment
             CreateMap<PremiumPayment, PremiumPaymentResponseDto>()
-    .ForMember(dest => dest.PolicyNumber,
-        opt => opt.MapFrom(src => src.Policy.PolicyNumber))
-    .ForMember(dest => dest.PaymentStatus,
-        opt => opt.MapFrom(src => src.PaymentStatus.ToString()));
-
+                .ForMember(dest => dest.CustomerName,
+                    opt => opt.MapFrom(src => src.Customer.User.FullName))
+                .ForMember(dest => dest.PolicyNumber,
+                    opt => opt.MapFrom(src => src.Policy.PolicyNumber))
+                .ForMember(dest => dest.PaymentStatus,
+                    opt => opt.MapFrom(src => src.PaymentStatus.ToString()));
             // Claim
             CreateMap<Claim, ClaimResponseDto>()
                 .ForMember(dest => dest.PolicyNumber,

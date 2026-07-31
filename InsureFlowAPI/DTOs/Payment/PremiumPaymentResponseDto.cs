@@ -5,7 +5,7 @@ namespace InsureFlowAPI.DTOs.Payment
     public class PremiumPaymentResponseDto
     {
         public int PaymentId { get; set; }
-
+        public string CustomerName { get; set; } = string.Empty;
         public string PolicyNumber { get; set; }
 
         public decimal Amount { get; set; }

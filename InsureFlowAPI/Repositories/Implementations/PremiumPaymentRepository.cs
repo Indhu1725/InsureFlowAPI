@@ -21,7 +21,8 @@ namespace InsureFlowAPI.Repositories
         {
             IQueryable<PremiumPayment> query = _context.PremiumPayments
                 .Include(p => p.Policy)
-                .Include(p => p.Customer);
+                .Include(p => p.Customer)
+                        .ThenInclude(c => c.User);
 
             // Filter by Payment Status
             if (paginationDto.PaymentStatus.HasValue)
@@ -97,7 +98,8 @@ namespace InsureFlowAPI.Repositories
             IQueryable<PremiumPayment> query = _context.PremiumPayments
                 .Where(p => p.PolicyId == policyId)
                 .Include(p => p.Policy)
-                .Include(p => p.Customer);
+                .Include(p => p.Customer)
+                       .ThenInclude(c => c.User);
 
             // Filter by Payment Status
             if (paginationDto.PaymentStatus.HasValue)
@@ -173,7 +175,8 @@ namespace InsureFlowAPI.Repositories
             IQueryable<PremiumPayment> query = _context.PremiumPayments
                 .Where(p => p.CustomerId == customerId)
                 .Include(p => p.Policy)
-                .Include(p => p.Customer);
+                .Include(p => p.Customer)
+                   .ThenInclude(c => c.User);
             // Filter by Payment Status
             if (paginationDto.PaymentStatus.HasValue)
             {
@@ -248,6 +251,7 @@ namespace InsureFlowAPI.Repositories
             return await _context.PremiumPayments
                 .Include(p => p.Policy)
                 .Include(p => p.Customer)
+                   .ThenInclude(c => c.User)
                 .FirstOrDefaultAsync(p => p.PaymentId == id);
         }
 
@@ -257,6 +261,7 @@ namespace InsureFlowAPI.Repositories
             return await _context.PremiumPayments
                 .Include(p => p.Policy)
                 .Include(p => p.Customer)
+                  .ThenInclude(c => c.User)
                 .FirstOrDefaultAsync(p => p.TransactionReference == transactionReference);
         }
 

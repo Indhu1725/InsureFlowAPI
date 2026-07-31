@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InsureFlowAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f586cde05b940ec82a915655aa60f2423252147c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f15fa03dc8bf7ff39aab04735d7378bfc020611")]
 [assembly: System.Reflection.AssemblyProductAttribute("InsureFlowAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InsureFlowAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
