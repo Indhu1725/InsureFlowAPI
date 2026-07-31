@@ -24,7 +24,13 @@ C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Micr
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -40,6 +46,7 @@ C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Mono
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -143,3 +150,5 @@ C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\obj\Debug\net8.0\refi
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\obj\Debug\net8.0\InsureFlowAPI.pdb
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\obj\Debug\net8.0\InsureFlowAPI.genruntimeconfig.cache
 C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\obj\Debug\net8.0\ref\InsureFlowAPI.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\Deepthi\Desktop\Indhu\InsureFlowAPI\InsureFlowAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

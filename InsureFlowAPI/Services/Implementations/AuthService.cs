@@ -17,11 +17,13 @@ namespace InsureFlowAPI.Services.Implementations
     {
         private readonly IUserRepository _userRepository;
         private readonly IConfiguration _configuration;
+        private readonly ICloudinaryService _cloudinaryService;
 
-        public AuthService(IUserRepository userRepository, IConfiguration configuration)
+        public AuthService(IUserRepository userRepository, IConfiguration configuration, ICloudinaryService cloudinaryService)
         {
             _userRepository = userRepository;
             _configuration = configuration;
+            _cloudinaryService = cloudinaryService;
         }
         public async Task<UserResponseDto> RegisterCustomerAsync(RegisterRequestDto requestDto)
         {
@@ -29,6 +31,14 @@ namespace InsureFlowAPI.Services.Implementations
 
             if (await _userRepository.EmailExistsAsync(email))
                 throw new ConflictException("User with this email already exists.");
+
+            // Upload image to Cloudinary
+            string? imageUrl = null;
+
+            if (requestDto.ProfileImage != null)
+            {
+                imageUrl = await _cloudinaryService.UploadImageAsync(requestDto.ProfileImage);
+            }
 
             var user = new User
             {
@@ -38,7 +48,10 @@ namespace InsureFlowAPI.Services.Implementations
                 MobileNumber = requestDto.MobileNumber.Trim(),
                 Role = Role.Customer,
                 IsActive = true,
-                CreatedDate = DateTime.UtcNow
+                CreatedDate = DateTime.UtcNow,
+
+                // Save Cloudinary URL
+                ProfileImageUrl = imageUrl
             };
 
             await _userRepository.AddAsync(user);

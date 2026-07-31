@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 
 namespace InsureFlowAPI.DTOs.Customer
 {
@@ -26,5 +27,6 @@ namespace InsureFlowAPI.DTOs.Customer
 
         [Required(ErrorMessage = "Nominee relation is required.")]
         public string NomineeRelation { get; set; }
+        public IFormFile? ProfileImage { get; set; }
     }
 }

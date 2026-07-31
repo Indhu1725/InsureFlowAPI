@@ -18,7 +18,7 @@ namespace InsureFlowAPI.Controllers
 
         // Customer Registration
         [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterRequestDto requestDto)
+        public async Task<IActionResult> Register([FromForm] RegisterRequestDto requestDto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

@@ -32,8 +32,10 @@ namespace InsureFlowAPI.Models
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         public DateTime UpdatedDate { get; set; } = DateTime.UtcNow;
+        public string? ProfileImageUrl { get; set; }
 
         public Customer? Customer { get; set; }
+
 
         //One user Can have many claim histories
         public ICollection<ClaimStatusHistory>? ClaimHistories { get; set; } = new List<ClaimStatusHistory>();

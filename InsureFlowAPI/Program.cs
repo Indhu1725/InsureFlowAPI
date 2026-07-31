@@ -14,6 +14,7 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 
+
 namespace InsureFlowAPI
 {
     public class Program
@@ -39,6 +40,7 @@ namespace InsureFlowAPI
 
             // Services
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ICustomerService, CustomerService>();
             builder.Services.AddScoped<IInsuranceProductService, InsuranceProductService>();
@@ -49,6 +51,7 @@ namespace InsureFlowAPI
 
             // AutoMapper
             builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+            
 
             // JWT Authentication
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
@@ -153,6 +156,7 @@ namespace InsureFlowAPI
             // IMPORTANT ORDER
             app.UseAuthentication();
             app.UseAuthorization();
+            
 
             app.MapControllers();
 

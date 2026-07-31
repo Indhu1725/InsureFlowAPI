@@ -13,19 +13,57 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDto"
+                "required": [
+                  "Email",
+                  "FullName",
+                  "MobileNumber",
+                  "Password"
+                ],
+                "type": "object",
+                "properties": {
+                  "FullName": {
+                    "maxLength": 100,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string",
+                    "format": "email"
+                  },
+                  "Password": {
+                    "minLength": 8,
+                    "pattern": "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@$!%*?&]).+$",
+                    "type": "string"
+                  },
+                  "MobileNumber": {
+                    "pattern": "^\\d{10}$",
+                    "type": "string",
+                    "format": "tel"
+                  },
+                  "ProfileImage": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "FullName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "MobileNumber": {
+                  "style": "form"
+                },
+                "ProfileImage": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -644,19 +682,75 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerRequestDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerRequestDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerRequestDto"
+                "required": [
+                  "Address",
+                  "City",
+                  "DateOfBirth",
+                  "NomineeName",
+                  "NomineeRelation",
+                  "PinCode",
+                  "State"
+                ],
+                "type": "object",
+                "properties": {
+                  "DateOfBirth": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "Address": {
+                    "maxLength": 250,
+                    "minLength": 0,
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "State": {
+                    "type": "string"
+                  },
+                  "PinCode": {
+                    "pattern": "^[0-9]{6}$",
+                    "type": "string"
+                  },
+                  "NomineeName": {
+                    "type": "string"
+                  },
+                  "NomineeRelation": {
+                    "type": "string"
+                  },
+                  "ProfileImage": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "DateOfBirth": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "State": {
+                  "style": "form"
+                },
+                "PinCode": {
+                  "style": "form"
+                },
+                "NomineeName": {
+                  "style": "form"
+                },
+                "NomineeRelation": {
+                  "style": "form"
+                },
+                "ProfileImage": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -2230,6 +2324,11 @@
           "nomineeRelation": {
             "minLength": 1,
             "type": "string"
+          },
+          "profileImage": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -2437,39 +2536,6 @@
           "startDate": {
             "type": "string",
             "format": "date"
-          }
-        },
-        "additionalProperties": false
-      },
-      "RegisterRequestDto": {
-        "required": [
-          "email",
-          "fullName",
-          "mobileNumber",
-          "password"
-        ],
-        "type": "object",
-        "properties": {
-          "fullName": {
-            "maxLength": 100,
-            "minLength": 0,
-            "type": "string"
-          },
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "password": {
-            "minLength": 8,
-            "pattern": "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@$!%*?&]).+$",
-            "type": "string"
-          },
-          "mobileNumber": {
-            "minLength": 1,
-            "pattern": "^\\d{10}$",
-            "type": "string",
-            "format": "tel"
           }
         },
         "additionalProperties": false

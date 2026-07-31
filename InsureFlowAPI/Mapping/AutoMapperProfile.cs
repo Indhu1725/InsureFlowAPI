@@ -26,6 +26,8 @@ namespace InsureFlowAPI.Mapping
                     opt => opt.MapFrom(src => src.User.Email))
                 .ForMember(dest => dest.MobileNumber,
                     opt => opt.MapFrom(src => src.User.MobileNumber))
+                .ForMember(dest => dest.ProfileImageUrl,
+    opt => opt.MapFrom(src => src.User.ProfileImageUrl))
                 .ForMember(dest => dest.IsActive,
                     opt => opt.MapFrom(src => src.IsActive));
 

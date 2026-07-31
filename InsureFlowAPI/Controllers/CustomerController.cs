@@ -157,7 +157,7 @@ namespace InsureFlowAPI.Controllers
         // Update Customer Profile
         [Authorize(Roles = "Customer")]
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> UpdateCustomer(int id, [FromBody] CustomerRequestDto requestDto)
+        public async Task<IActionResult> UpdateCustomer(int id,[FromForm] CustomerRequestDto requestDto)
         {
             var loggedInUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 

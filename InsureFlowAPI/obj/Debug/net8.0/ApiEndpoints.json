@@ -24,9 +24,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requestDto",
-        "Type": "InsureFlowAPI.DTOs.Authentication.RegisterRequestDto",
-        "IsRequired": true
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobileNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -394,9 +414,44 @@
         "IsRequired": true
       },
       {
-        "Name": "requestDto",
-        "Type": "InsureFlowAPI.DTOs.Customer.CustomerRequestDto",
-        "IsRequired": true
+        "Name": "DateOfBirth",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "State",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PinCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NomineeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NomineeRelation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

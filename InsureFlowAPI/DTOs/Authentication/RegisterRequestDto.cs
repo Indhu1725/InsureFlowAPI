@@ -22,5 +22,7 @@ namespace InsureFlowAPI.DTOs.Authentication
         [Phone(ErrorMessage = "Invalid mobile number format.")]
         [RegularExpression(@"^\d{10}$", ErrorMessage = "Mobile number must be exactly 10 digits.")]
         public string MobileNumber { get; set; }
+
+        public IFormFile? ProfileImage { get; set; }
     }
 }

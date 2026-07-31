@@ -16,13 +16,15 @@ namespace InsureFlowAPI.Services.Implementations
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<CustomerService> _logger;
+        private readonly ICloudinaryService _cloudinaryService;
 
-        public CustomerService(ICustomerRepository customerRepository,IUserRepository userRepository,IMapper mapper,ILogger<CustomerService> logger)
+        public CustomerService(ICustomerRepository customerRepository,IUserRepository userRepository,IMapper mapper,ILogger<CustomerService> logger, ICloudinaryService cloudinaryService)
         {
             _customerRepository = customerRepository;
             _userRepository = userRepository;
             _mapper = mapper;
             _logger = logger;
+            _cloudinaryService = cloudinaryService;
         }
 
         // Get all customers
@@ -318,6 +320,13 @@ namespace InsureFlowAPI.Services.Implementations
 
             if (string.IsNullOrWhiteSpace(requestDto.NomineeRelation))
                 throw new BadRequestException("Nominee Relation is required.");
+
+            if (requestDto.ProfileImage != null)
+            {
+                var imageUrl = await _cloudinaryService.UploadImageAsync(requestDto.ProfileImage);
+
+                customer.User.ProfileImageUrl = imageUrl;
+            }
 
             customer.DateOfBirth = requestDto.DateOfBirth;
             customer.Address = requestDto.Address.Trim();
