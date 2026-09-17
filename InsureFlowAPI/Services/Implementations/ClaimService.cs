@@ -74,6 +74,7 @@ namespace InsureFlowAPI.Services.Implementations
         {
             var claims = await _context.Claims
                 .Include(c => c.Customer)
+                    .ThenInclude(c => c.User)
                 .Include(c => c.Policy)
                 .Where(c =>
                     c.ClaimStatus == ClaimStatus.Submitted ||
